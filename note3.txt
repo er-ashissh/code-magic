@@ -7,12 +7,15 @@ desc: features of Signup, Signin, forgot password. using concept of MD5(pwd), SH
 ->remote:
 https://github.com/ashish1997it/code-magic.git
 
-#home
+#2
 github#180726b->
 branch brncodmag
 remote remtcodmag
 
-#office
+#3
+github#180726b->
+branch brncodmag3
+remote remtcodmag3
 
 '''
 Ashish@(brncodmag)
