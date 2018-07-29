@@ -1,0 +1,21 @@
+proj: CodeMagic >parent registation & hallBooking
+tech: php, mySql
+#180716
+desc: features of Signup, Signin, forgot password. using concept of MD5(pwd), SHA256 for token, err404 page redirect.
+
+#git
+->remote:
+https://github.com/ashish1997it/code-magic.git
+
+github#180726b->#home
+branch brncodmag
+remote remtcodmag
+
+'''
+Ashish@(brncodmag)
+$ git remote -v
+remtcodmag      https://github.com/ashish1997it/code-magic.git (fetch)
+remtcodmag      https://github.com/ashish1997it/code-magic.git (push)
+remtcodmag3     https://github.com/ashish1997it/code-magic.git (fetch)
+remtcodmag3     https://github.com/ashish1997it/code-magic.git (push)
+'''
