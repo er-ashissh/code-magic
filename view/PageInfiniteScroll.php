@@ -62,6 +62,8 @@ $result = $pdo_statement->fetchAll();
 $query = $conn->prepare("SELECT * FROM hallbooking ORDER BY id DESC LIMIT 10");
 $query->execute();
 
+var_dump($query);
+
 if($query->fetchColumn() > 0)
 {
 	while($row = $query->fetch(PDO::FETCH_ASSOC))

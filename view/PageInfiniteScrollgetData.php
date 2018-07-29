@@ -16,7 +16,7 @@ $queryAll->execute();
 $rowAll = $queryAll->fetch(PDO::FETCH_ASSOC);
 $allNumRows = $rowAll['num_rows'];
 
-$number_of_rows = $queryAll->fetchColumn(); 
+//$number_of_rows = $queryAll->fetch_assoc(); 
 var_dump($number_of_rows);
 exit();
 
@@ -25,7 +25,7 @@ $query->execute();
 
 
 if($query->rowCount() > 0){
-	while($row = $query->fetch_assoc()){
+	while($row = $query->fetch(PDO::FETCH_ASSOC)){
 		$postID = $row['id'];
 ?>
 <div class='list-item'><h4>
