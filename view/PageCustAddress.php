@@ -28,7 +28,7 @@ td{
 <table align="center" border="1" cellspacing="5">
 <tr style="margin-bottom: 20px;">
 <td>cust_email:</td>
-<td><input type='text' name='cust_email' placeholder="cust_email"></td>
+<td><input type='text' name='cust_email' placeholder="cust_email" required></td>
 </tr>
 
 <tr>
