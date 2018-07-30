@@ -84,6 +84,7 @@ a, a:hover{
 		  <li><a href="<?php echo $projPath.'/view/formPaginate3.php'; ?>" title='fixed-PrettyGood'>Paginate3</a></li>
           <li><a href="<?php echo $projPath.'/view/PageMPDF.php'; ?>">mpdf</a></li>
           <li><a href="<?php echo $projPath.'/view/PageInfiniteScroll.php'; ?>">InfiniteScroll</a></li>
+		  <li><a href="<?php echo $projPath.'/view/PageCustAddress.php'; ?>">CustAddress</a></li>
         </ul>
       </li>
     </ul>
