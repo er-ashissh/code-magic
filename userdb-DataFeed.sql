@@ -49,6 +49,35 @@ INSERT INTO `hallbooking` VALUES (46,'sam',1146,'abc@m.com','2018-07-02 00:00:00
 UNLOCK TABLES;
 
 --
+-- Table structure for table `user_addrs`
+--
+
+DROP TABLE IF EXISTS `user_addrs`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `user_addrs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `cust_email` varchar(45) DEFAULT NULL,
+  `addrs_first_line` varchar(45) DEFAULT NULL,
+  `addrs_second_line` varchar(45) DEFAULT NULL,
+  `addrs_city` varchar(45) DEFAULT NULL,
+  `addrs_state` varchar(45) DEFAULT NULL,
+  `addrs_zip_code` varchar(45) DEFAULT NULL,
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user_addrs`
+--
+
+LOCK TABLES `user_addrs` WRITE;
+/*!40000 ALTER TABLE `user_addrs` DISABLE KEYS */;
+INSERT INTO `user_addrs` VALUES (1,'abc3@m.com','qwe','asd','Mumbai','Maharastra','400066'),(3,'abc3@m.com','qwe','asd','Mumbai','Maharastra','400066'),(4,'abc3@m.com','qaz','wsx','Kolkata','West Bengal','123456'),(6,'abc3@m.com','qaz','wsx','Kolkata','West Bengal','123456'),(8,'abc1@m.com','qwe','asd','Mumbai','Maharastra','400066'),(9,'abc1@m.com','qaz','wsx','Kolkata','West Bengal','123456'),(10,'abc3@m.com','qwe','asd','Mumbai','Maharastra','400066'),(11,'abc3@m.com','qaz','wsx','Kolkata','West Bengal','123456'),(14,'abc6@m.com','qwe','asd','Mumbai','Maharastra','400066'),(15,'abc6@m.com','qaz','wsx','Surat','Gujrat','404040'),(16,'abc7@m.com','qwe','asd','Mumbai','Maharastra','403066'),(17,'abc7@m.com','qaz','wsx','Surat','Gujrat','404040'),(19,'abc7@m.com','qwe','asd','Mumbai','Maharastra','403066'),(20,'abc7@m.com','qaz','wsx','Surat','Gujrat','404040');
+/*!40000 ALTER TABLE `user_addrs` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `user_tabl`
 --
 
@@ -85,4 +114,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-07-30  1:32:09
+-- Dump completed on 2018-07-30 23:44:56
