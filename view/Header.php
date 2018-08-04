@@ -80,6 +80,7 @@ a, a:hover{
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">More
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
+		  <li><a href="<?php echo $projPath.'/view/jQuery-Basic.php'; ?>">jQuery-Basic</a></li>
 		  <li><a href="<?php echo $projPath.'/view/formPaginate.php'; ?>">Paginate</a></li>
 		  <li><a href="<?php echo $projPath.'/view/formPaginate3.php'; ?>" title='fixed-PrettyGood'>Paginate3</a></li>
           <li><a href="<?php echo $projPath.'/view/PageMPDF.php'; ?>">mpdf</a></li>
